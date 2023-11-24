@@ -1,0 +1,5 @@
+.RandomPokemon {
+    border: solid white;
+    display: flex;
+    flex-direction: column;
+}
