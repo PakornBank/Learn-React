@@ -8,12 +8,14 @@ import Convert from './Convert.jsx'
 import Buttons from './Buttons.jsx'
 import RandomPokemon from './components/RandomPokemon.jsx'
 import Slots from './components/Slots.jsx'
+import properties from './components/properties.jsx'
+import Rental from './components/Rental.jsx'
 
 function App() {
 
   return (
     <>
-      <Slots></Slots>
+      <Rental properties={properties}></Rental>
     </>
   )
 }
